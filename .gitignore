@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Regenerable Tidy3D results (re-downloadable from the cloud / rebuildable from
+# scripts). The small .npz design artifacts in data/ are NOT ignored.
+data/cache/
+data/baselines/
+*.hdf5
+
+# Lumerical project and log files (large, regenerable by lumerical/metalens_lumerical.py)
+*.fsp
+*.fsp_*
+*_p0.log
+
+# Editor / AI-assistant config (machine-specific, IDE-regenerated)
+.claude/settings.local.json
+.vscode/
+
+# OS and notebook cruft
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
